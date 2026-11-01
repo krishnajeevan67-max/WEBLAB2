@@ -325,7 +325,7 @@ Verifying the persisted database records in `books.db` using DB Browser for SQLi
 The application is deployed on **Render** as a Web Service.
 
 ### Deployment Settings
-- **Repository:** `Jaydeep-Mallick/Lab2bdf`
+- **Repository:** `JEEVAN-KRISHNA/Lab2bdf`
 - **Language / Runtime:** `Node`
 - **Branch:** `main`
 - **Root Directory:** *(leave blank — `package.json` is at repository root)*
