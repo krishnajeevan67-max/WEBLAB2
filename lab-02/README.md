@@ -331,7 +331,7 @@ The application is deployed on **Render** as a Web Service.
 - **Root Directory:** *(leave blank — `package.json` is at repository root)*
 - **Build Command:**
   ```bash
-  npm install && npm rebuild sqlite3 --build-from-source
+  npm install
   ```
 - **Start Command:**
   ```bash
@@ -348,7 +348,7 @@ services:
     name: lab2bdf
     runtime: node
     plan: free
-    buildCommand: npm install && npm rebuild sqlite3 --build-from-source
+    buildCommand: npm install
     startCommand: node app.js
     envVars:
       - key: NODE_VERSION

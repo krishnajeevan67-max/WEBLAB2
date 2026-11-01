@@ -6,8 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js",
-    "dev": "nodemon app.js",
-    "postinstall": "npm rebuild sqlite3 --build-from-source"
+    "dev": "nodemon app.js"
   },
   "engines": {
     "node": "26.x"
