@@ -10,7 +10,7 @@
     "postinstall": "npm rebuild sqlite3 --build-from-source"
   },
   "engines": {
-    "node": "20.x"
+    "node": "26.x"
   },
   "keywords": [],
   "author": "",

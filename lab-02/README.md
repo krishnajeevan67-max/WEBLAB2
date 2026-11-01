@@ -34,7 +34,7 @@ The application is deployed on Render and provides REST API endpoints for managi
 
 ## Project Overview
 
-- **Runtime Environment:** Node.js (v20 LTS recommended)
+- **Runtime Environment:** Node.js 26
 - **Framework:** Express.js 5
 - **Database Engine:** SQLite3 with `sqlite` (Promise-based async/await wrapper)
 - **Database File:** `books.db` (configurable via `DB_PATH`)
@@ -63,7 +63,7 @@ Table Name: `book`
 ```text
 .
 ├── .gitignore          # Ignores node_modules, .env, OS files, and logs
-├── .node-version       # Pins Node.js version to 20 LTS for cloud hosts
+├── .node-version       # Pins Node.js version for cloud hosts
 ├── .nvmrc              # Node version manager configuration
 ├── README.md           # Comprehensive project documentation
 ├── app.js              # Express application, routes, and DB initialization
@@ -87,7 +87,7 @@ Table Name: `book`
 ## Prerequisites & Installation
 
 ### Prerequisites
-- **Node.js**: v18.0.0 or higher (v20 LTS recommended)
+- **Node.js**: v26.x
 - **npm**: v9.0.0 or higher
 - **Postman / cURL**: For endpoint testing
 
@@ -338,7 +338,7 @@ The application is deployed on **Render** as a Web Service.
   node app.js
   ```
 - **Environment Variables:**
-  - `NODE_VERSION`: `20.18.0`
+  - `NODE_VERSION`: `26.0.0`
 
 ### Blueprint Configuration (`render.yaml`)
 A ready-to-use Render Blueprint is provided in [render.yaml](render.yaml):
@@ -352,7 +352,7 @@ services:
     startCommand: node app.js
     envVars:
       - key: NODE_VERSION
-        value: 20.18.0
+        value: 26.0.0
 ```
 
 ---
